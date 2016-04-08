@@ -5,7 +5,9 @@ answertoni=['yaaaaaaas']
 answerlee=[]
 answereubie=[]
 answerphillip=[]
-def goodbye():
+
+def interview():
+	def goodbye():
                 renew=input("If you want to interview another person, then input 'restart'. If you want to exit, input 'exit'.")
                 if renew=='restart':
                         interview()
@@ -13,26 +15,25 @@ def goodbye():
                         quit()
                 else:
                         print("Wot you tryna say m8")
-def questions():
+	def questions():
                 for e in q:
                         print(e)
-def menu(letter):
-	if letter=="g":#general questions
-		sdfsd
-	elif letter=='h':#help
-		helplist=['To start an interview, type “Hello” followed by the name of the person you wish talk to.','To end an interview, type “Goodbye”','Note: The case does not matter, so you don’t have to capitalize or lowercase your inputs']
+	def menu(letter):
+		if letter=="g":#general questions
+			sdfsd
+		elif letter=='h':#help
+			helplist=['To start an interview, type “Hello” followed by the name of the person you wish talk to.','To end an interview, type “Goodbye”','Note: The case does not matter, so you don’t have to capitalize or lowercase your inputs']
 		for hel in helplist:
 			print(hel)
 	else:
 		print("I do not know the answer to that question")
-def special():
-	gsgsg
-def interview():
+	def special():
+		gsgsg
     def toni():            #TONIIIIIIIIIII
         print("It Works")
         question=input("What do you wish to ask?")
         if question in gquestions:
-                        qnum=qquestions.index(question)
+                        qnum=gquestions.index(question)
                         answer=answertoni[qnum]
                         for letter in answer:
                                 print(letter, end=""),
