@@ -5,6 +5,7 @@ answertoni=['yaaaaaaas']
 answerlee=[]
 answereubie=[]
 answerphillip=[]
+helplist=['To start an interview, type “Hello” followed by the name of the person you wish talk to.','To end an interview, type “Goodbye”','Note: The case does not matter, so you don’t have to capitalize or lowercase your inputs']
 
 def interview():
 	def goodbye():
@@ -20,15 +21,13 @@ def interview():
                         print(e)
 	def menu(letter):
 		if letter=="g":#general questions
-			sdfsd
+			questions()
 		elif letter=='h':#help
-			helplist=['To start an interview, type “Hello” followed by the name of the person you wish talk to.','To end an interview, type “Goodbye”','Note: The case does not matter, so you don’t have to capitalize or lowercase your inputs']
+			
 		for hel in helplist:
 			print(hel)
 	else:
 		print("I do not know the answer to that question")
-	def special():
-		gsgsg
     def toni():            #TONIIIIIIIIIII
         print("It Works")
         question=input("What do you wish to ask?")
